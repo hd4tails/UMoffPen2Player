@@ -10,10 +10,10 @@ All rendering runs in the browser. The save string is not uploaded to a server b
 
 ## Features
 
-- Render UMoffPen2 `UMSD` save data to a 1920x1080 canvas.
+- Render UMoffPen2 `UMSD` save data (versions 1 and 2) to a 1920x1080 canvas.
 - Load a `.txt` save file.
 - Export PNG.
-- Export 15 fps MP4/H.264 timelapse video at 1/1, 1/2, or 1/4 resolution when the browser supports MP4/H.264 `MediaRecorder`.
+- Export 30 fps MP4/H.264 timelapse video at 1/1, 1/2, or 1/4 resolution when the browser supports MP4/H.264 `MediaRecorder`.
 - Video encoding uses the browser's built-in encoder. This project does not bundle an H.264 encoder.
 
 ## Development
